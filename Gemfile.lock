@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.4.1)
+    drb (2.1.1)
+      ruby2_keywords
+    net-ping (2.0.8)
+    redis (5.0.6)
+      redis-client (>= 0.9.0)
+    redis-client (0.14.1)
+      connection_pool
+    ruby2_keywords (0.0.5)
+    strings-ansi (0.2.0)
+    tty-cursor (0.7.1)
+    tty-progressbar (0.18.2)
+      strings-ansi (~> 0.2)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      unicode-display_width (>= 1.6, < 3.0)
+    tty-screen (0.8.1)
+    unicode-display_width (2.4.2)
+
+PLATFORMS
+  x64-mingw-ucrt
+  x86_64-linux
+
+DEPENDENCIES
+  drb
+  net-ping
+  redis
+  tty-progressbar
+
+BUNDLED WITH
+   2.2.32
